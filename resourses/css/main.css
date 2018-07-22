@@ -1,0 +1,428 @@
+/*#4c5667*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    margin-top: 0px;
+}
+
+.row{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    font-size: 120%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+h2:after{
+    display: block;
+    height: 3px;
+    background-color: #4c5667;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.clear-fix{zoom:1}
+.clear-fix:after{
+    content: '-';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/*****************************************************************/
+/*******************        HEADER      **************************/
+/*****************************************************************/
+
+.main-nav{
+    margin: 0px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    background-color: #fff;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.logo{
+    height: 40px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.up-nav{
+    float: right;
+    list-style: none;  
+    margin-right: 70px;
+    padding: auto; 
+}
+
+.up-nav li{
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.up-nav li a:link,
+.up-nav li a:visited{
+    text-decoration: none;
+    font-size: 80%;
+    color: #222;
+    font-family: "Segoe UI";
+    line-height: 20px;
+    font-weight: 450;
+    line-height: 20px; 
+}
+
+.up-nav li a:hover{
+    color: dimgray;
+}
+
+.second-head{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(laptops.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.heading-box,
+.text-box{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.heading-box{
+    font-size: 150%;
+    color: #e5e1e1;
+    font-weight: 700;
+    margin-bottom: 50px; 
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-family: "Segoe UI";
+}
+
+.text-box{
+    font-size: 90%;
+    color: #e5e1e1;
+    line-height: 27px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*****************************************************************/
+/*******************        SERVICES      **************************/
+/*****************************************************************/
+
+.services{
+    width: 100%;
+    height: 90vh;
+}
+
+.first-info{
+    text-align: center;
+    color: #97a0af;
+    font-size: 17px;
+    font-family: "Segoe UI";
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.big-icon{
+    padding 40px;
+}
+
+.big-icon img{
+    height: 60px;
+}
+
+.small-box{
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.small-box h3{
+    font-size: 100%;
+    color: #4c5667;
+    margin-bottom: 20px;
+}
+
+.desk-p{
+    font-size: 70%;
+    color: #97a0af;
+    font-family: "Segoe UI";
+    line-height: 22px;
+    word-spacing: 1px;
+    font-weight: 400; 
+    letter-spacing: normal;
+    word-spacing: 0px;
+    text-align: center;
+}
+
+/*****************************************************************/
+/*******************        LANGUAGES     **************************/
+/*****************************************************************/
+
+.languages{
+    background-color: #EEF2F5;
+    width: 100%;
+    height: 500px;
+}
+
+.big-logo{
+     padding 40px;
+}
+
+.big-logo img{
+    height: 120px;
+}
+
+.small-box{
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.big-box h3{
+    font-size: 100%;
+    color: #4c5667;
+    margin-bottom: 20px;
+    font-weight: 100; 
+}
+
+.desk-para{
+    font-size: 70%;
+    color: #97a0af;
+    font-family: "Segoe UI";
+    line-height: 22px;
+    word-spacing: 1px;
+    font-weight: 400; 
+    letter-spacing: normal;
+    word-spacing: 0px;
+    text-align: center;
+}
+
+/*****************************************************************/
+/*******************        TECHNOLOGIES      **************************/
+/*****************************************************************/
+
+.technologies{
+    width: 100%;
+    height: 500px;
+}
+
+.tech-logo{
+     padding 40px;
+}
+
+.tech-logo img{
+    height: 100px;
+}
+
+/*****************************************************************/
+/*******************        CREATIVE TEAM      **************************/
+/*****************************************************************/
+
+.team{
+   background-color: #EEF2F5;
+    width: 100%;
+    height: auto; 
+}
+
+.team-mates{
+    text-align: center;
+}
+
+.team-mates img{
+    display: block;
+    max-width: 295px;
+    height: 295px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.text-mates-ann img{
+    display: block;
+    max-width: 20%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+h4{
+    color: #4c5667;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 26.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;	
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    text-indent: 0px;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+
+.team-info{
+    display: block;
+    padding: 2px;
+    color: #4c5667;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.a-team{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 14px;
+    color: #23527c;
+    line-height: 22px;
+    vertical-align: baseline;
+    font-weight: 400;
+}
+
+/*****************************************************************/
+/*******************        FOOTER      **************************/
+/*****************************************************************/
+
+footer{
+    width: 100%;
+    margin-bottom: -10px;
+    height: 30px;
+}
+
+.down-nav{
+   list-style: none;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #EAECEF; 
+}
+
+.down-nav li{
+    display: inline-block;
+    margin-right: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.l-l{
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    text-indent: 0px;
+    color: #97a0af;
+}
+
+a:hover{
+    color: #0ccfa8; 
+}
+
+.last-foot{
+    height: 0px; 
+    margin-bottom: 100px;
+}
+
+.down-logo img{
+    height: 30px;
+    margin-left: 120px;
+    display: block;
+    margin-top: -130px;
+}
+
+.last-text{
+    float: right;
+    margin-top: -30px;
+    color: #4c5667;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin-right: 120px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
